@@ -1,0 +1,48 @@
+@media screen and (max-width: 568px) {
+    .container {
+        width: 90%
+    }
+
+    .container .spending .charts .chart .label {
+        width: 20px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .container .balance, .container .spending {
+        padding: 20px;
+    }
+
+    .container .spending .last-7-days .title {
+        font-size: 25px;
+    }
+
+    .container .spending .charts {
+        gap: 10px;
+    }
+
+    .container .spending .charts .chart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .spending .charts .chart .data {
+        border-radius: 3px;
+    }
+
+    .container .spending .total {
+        padding-top: 25px;
+        padding-bottom: 2px;
+    }
+
+    .container .spending .total .this-month .title {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .container .spending .total .last-month {
+        padding-bottom: 4px;
+    }
+}
