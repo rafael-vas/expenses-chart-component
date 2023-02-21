@@ -35,11 +35,11 @@ Users should be able to:
 <img src="design/mobile-design.jpg" alt="Desktop Design" width="375">
 
 ### Links
-[Click Here to Access Website](https://rafael-vas.github.io/news-homepage/)
+[Click Here to Access Website](https://rafael-vas.github.io/expenses-chart-component/)
 
 - Live Site URL:
 ```
-    https://rafael-vas.github.io/news-homepage/
+    https://rafael-vas.github.io/expenses-chart-component/
 ```
 
 
