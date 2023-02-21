@@ -1,0 +1,23 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    /* PRIMARY COLORS */
+    --primary-red: hsl(10, 79%, 65%);
+    --primary-cyan: hsl(186, 34%, 60%);
+
+    /* NEUTRAL COLORS */
+    --neutral-dark-brown: hsl(25, 47%, 15%);
+    --neutral-medium-brown: hsl(28, 10%, 53%);
+    --neutral-cream: hsl(27, 66%, 92%);
+    --neutral-pale-orange: hsl(33, 100%, 98%);
+
+    /* FONT */
+    --default-family: 'DM Sans', sans-serif;
+    --default-size: 18px;
+    --default-weight: 400;
+
+    /* WIDTHS */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+}
