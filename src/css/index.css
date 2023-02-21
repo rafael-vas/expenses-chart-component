@@ -1,0 +1,186 @@
+html,
+body {
+  min-height: 100vh;
+}
+
+html {
+  font-family: var(--default-family);
+  font-size: var(--default-size);
+  font-weight: var(--default-weight);
+}
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+body,
+main {
+  background-color: var(--neutral-cream);
+}
+
+.container {
+  width: 525px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .balance,
+.container .spending {
+  border-radius: 15px;
+  padding: 25px 35px;
+}
+
+.container .balance {
+  background-color: var(--primary-red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .balance .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+}
+
+.container .balance .info .text {
+  font-size: 15px;
+}
+
+.container .balance .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .balance .logo img {
+  width: 60px;
+}
+
+.container .spending {
+  background-color: var(--neutral-pale-orange);
+}
+
+.container .spending .charts {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  align-items: flex-end;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.container .spending .charts .chart {
+  flex: 1;
+  text-align: center;
+}
+
+.container .spending .charts .chart .data {
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--primary-red);
+  margin-bottom: 7px;
+}
+
+.container .spending .charts .chart .biggest.data {
+  background-color: var(--primary-cyan);
+}
+
+.container .spending .charts .chart .label {
+  font-size: 15px;
+  color: var(--neutral-medium-brown);
+}
+
+.container .spending .charts .monday .data {
+  height: 50px;
+}
+
+.container .spending .charts .tuesday .data {
+  height: 90px;
+}
+
+.container .spending .charts .wednesday .data {
+  height: 140px;
+}
+
+.container .spending .charts .thursday .data {
+  height: 80px;
+}
+
+.container .spending .charts .friday .data {
+  height: 60px;
+}
+
+.container .spending .charts .saturday .data {
+  height: 118px;
+}
+
+.container .spending .charts .sunday .data {
+  height: 75px;
+}
+
+.container .spending .charts .chart .data.active {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container .spending .charts .chart .data .data-price {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  padding: 7px;
+  background-color: var(--neutral-dark-brown);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.container .spending .charts .chart .data .data-price.hidden {
+  display: none;
+}
+
+.container .spending .total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.container .spending .total .text {
+  font-size: 15px;
+  color: var(--neutral-medium-brown);
+}
+
+.container .spending .total .this-month .title {
+  font-size: 40px;
+}
+
+.container .spending .total .last-month {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  text-align: end;
+  padding-bottom: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
