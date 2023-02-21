@@ -10,9 +10,13 @@ html {
 }
 
 body {
-  display: grid;
+  /* display: grid;
   place-content: center;
-  place-items: center;
+  place-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body,
@@ -170,6 +174,8 @@ main {
 }
 
 .footer {
+  width: 100%;
+  padding: 10px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
